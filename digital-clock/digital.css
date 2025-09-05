@@ -1,0 +1,72 @@
+
+html, body {
+  height: 100%;
+  margin: 0;           
+}
+#main {
+  width: 100%;       
+  height: 100%;        
+  min-height: 100vh;   
+  display: grid;       
+  place-items: center; 
+  background:gray;    
+}
+
+#main-clock-div {
+  height: 300px;
+  width: 400px;
+  background-color: rgb(74, 72, 72);
+  border: 10px solid #000;
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#sub-main-div {
+  height: 85%;
+  width: 85%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80%;
+}
+
+.r {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+
+.times {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.d {
+  color: yellow;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.date-day {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
